@@ -37,7 +37,7 @@ export default function HouzezNavbar() {
       </button>
       
       {hasDropdown && (
-        <div className={`absolute top-full left-0 w-64 bg-white rounded-lg mt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50`}>
+        <div className={`absolute top-full left-0 w-64 bg-white  rounded-lg mt-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50`}>
           <div className="py-2">
             {dropdownItems.map((item, index) => (
               <a key={index} href="#" className="block px-4 py-2 text-gray-700 hover:bg-blue-50 hover:text-blue-600 transition-colors">
@@ -51,7 +51,7 @@ export default function HouzezNavbar() {
   );
 
   return (
-    <nav className="absolute top-0 left-0 right-0 z-50 bg-transparent border-b border-white/20">
+    <nav className="absolute top-0 left-0 right-0 z-50 bg-transparent border-b border-white/20 ">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
@@ -63,7 +63,7 @@ export default function HouzezNavbar() {
                     <div className="w-3 h-3 bg-white rounded-full"></div>
                   </div>
                 </div>
-                <span className="text-white text-xl font-bold">houzez</span>
+                <span className="text-white text-xl font-bold">hellokk</span>
               </div>
             </div>
           </div>
@@ -72,24 +72,24 @@ export default function HouzezNavbar() {
           <div className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-1">
               <NavItem 
-                title="HIGHLIGHT" 
+                title="Highlight" 
                 hasDropdown={true} 
                 menuName="highlight"
                 dropdownItems={['News', 'Event']}
               />
               <NavItem 
-                title="LIFESTYLE & TRAVEL" 
+                title="Lifestyle&Travel" 
                 hasDropdown={true} 
                 menuName="lifestyle"
                 dropdownItems={['แนะนำโรงแรม', 'แนะนำของกิน', 'แนะนำที่เที่ยว']}
               />
               <NavItem 
-                title="PROPERTY" 
+                title="Property" 
                 hasDropdown={true} 
                 menuName="property"
                 dropdownItems={['เช่า/ซื้อ', 'ลงทุน']}
               />
-              <NavItem title="CONTACT US" hasDropdown={false} />
+              <NavItem title="Contact" hasDropdown={false} />
             </div>
           </div>
 
@@ -105,8 +105,8 @@ export default function HouzezNavbar() {
             </button>
 
             {/* Login button */}
-            <button className="bg-transparent border-1 border-white text-white px-3 py-1 rounded hover:bg-white hover:text-blue-600 transition-colors duration-200 font-small flex items-center space-x-1">
-              <User size={16} />
+            <button className="bg-transparent border-1 border-white text-white px-3 py-1 rounded hover:bg-white hover:text-blue-600 transition-colors duration-200 text-sm flex items-center space-x-1">
+              <User size={14} />
               <span>LOGIN</span>
             </button>
           </div>
@@ -148,7 +148,7 @@ export default function HouzezNavbar() {
                 <Globe size={16} />
                 <span>{currentLanguage}</span>
               </button>
-              <button className="flex items-center space-x-2 px-3 py-2 text-white hover:text-blue-200 w-full text-left">
+              <button className="flex items-center px-3 py-1 text-white hover:text-blue-200 w-full text-left">
                 <User size={16} />
                 <span>LOGIN</span>
               </button>

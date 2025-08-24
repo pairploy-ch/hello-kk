@@ -6,13 +6,13 @@ export default function HouzezHero() {
   
   const slides = [
     {
-      image: '/bg.jpg'
+      image: 'https://images.unsplash.com/photo-1449824913935-59a10b8d2000?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
     },
     {
-      image: '/bg-2.jpg'
+      image: 'https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2073&q=80'
     },
     {
-      image: '/bg-3.jpg'
+      image: 'https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80'
     }
   ];
 
@@ -69,7 +69,21 @@ export default function HouzezHero() {
           ))}
         </div>
 
-    
+        {/* Quick Stats */}
+        <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
+          <div className="text-white">
+            <div className="text-3xl md:text-4xl font-bold mb-2">2,500+</div>
+            <div className="text-white/80">Properties Listed</div>
+          </div>
+          <div className="text-white">
+            <div className="text-3xl md:text-4xl font-bold mb-2">1,200+</div>
+            <div className="text-white/80">Happy Customers</div>
+          </div>
+          <div className="text-white">
+            <div className="text-3xl md:text-4xl font-bold mb-2">98%</div>
+            <div className="text-white/80">Satisfaction Rate</div>
+          </div>
+        </div>
       </div>
     </div>
   );
