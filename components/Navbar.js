@@ -58,11 +58,12 @@ export default function HouzezNavbar() {
           <div className="flex items-center">
             <div className="flex-shrink-0">
               <div className="flex items-center space-x-2">
-                <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
-                  <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center">
-                    <div className="w-3 h-3 bg-white rounded-full"></div>
-                  </div>
-                </div>
+              <div className="w-8 h-8 bg-white rounded-full flex items-center justify-center">
+  <div className="w-6 h-6 rounded-full flex items-center justify-center bg-gradient-to-r from-[#22E9A2] to-[#07A1EA]">
+    <div className="w-3 h-3 bg-white rounded-full"></div>
+  </div>
+</div>
+
                 <span className="text-white text-xl font-bold">hellokk</span>
               </div>
             </div>
@@ -75,13 +76,13 @@ export default function HouzezNavbar() {
                 title="Highlight" 
                 hasDropdown={true} 
                 menuName="highlight"
-                dropdownItems={['News', 'Event']}
+                dropdownItems={['News']}
               />
               <NavItem 
-                title="Lifestyle&Travel" 
+                title="Lifestyle" 
                 hasDropdown={true} 
                 menuName="lifestyle"
-                dropdownItems={['แนะนำโรงแรม', 'แนะนำของกิน', 'แนะนำที่เที่ยว']}
+                dropdownItems={['แนะนำที่เที่ยว','Event','Trend']}
               />
               <NavItem 
                 title="Property" 
