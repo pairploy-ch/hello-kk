@@ -80,7 +80,8 @@ export default function BlueSignupForm() {
         {/* Right side - Form */}
         <div className="bg-white rounded-3xl shadow-2xl p-8 border border-blue-100">
           <div className="mb-8">
-            <h2 className="text-2xl font-bold text-gray-800 mb-2">Let's start with the basics</h2>
+<h2 className="text-2xl font-bold text-gray-800 mb-2">{"Let's start with the basics"}</h2>
+
             <div className="w-20 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full"></div>
           </div>
 
