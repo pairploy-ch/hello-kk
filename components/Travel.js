@@ -87,7 +87,7 @@ export default function TravelUI() {
                       key={`${currentSlide}-${index}`}
                       className="relative group cursor-pointer transform transition-all duration-500 hover:scale-105"
                     >
-                      <div className="relative overflow-hidden rounded-2xl shadow-2xl">
+                      <div className="relative overflow-hidden rounded-md shadow-2xl">
                         <img 
                           src={destination.image}
                           alt={destination.name}
@@ -108,7 +108,7 @@ export default function TravelUI() {
                       </div>
                       
                       {/* Hover Effect */}
-                      <div className="absolute inset-0 bg-white/5 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
+                      <div className="absolute inset-0 bg-white/5 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none"></div>
                     </div>
                   ))}
                 </div>

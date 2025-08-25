@@ -36,20 +36,20 @@ export default function BlueSignupForm() {
         {/* Left side - Welcome content */}
         <div className="space-y-8">
           {/* Logo */}
-          <div className="flex items-center space-x-3">
+          {/* <div className="flex items-center space-x-3">
             <div className="w-12 h-12 bg-gradient-to-r from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center">
               <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
               </svg>
             </div>
             <span className="text-2xl font-bold text-gray-800">BlueTech</span>
-          </div>
+          </div> */}
 
           <div className="space-y-6">
             <h1 className="text-5xl font-bold text-gray-800 leading-tight">
               Get started with{' '}
               <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-                BlueTech.
+                hellokk
               </span>
             </h1>
             
@@ -59,7 +59,7 @@ export default function BlueSignupForm() {
           </div>
 
           {/* Testimonial */}
-          <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-6 border border-blue-100 shadow-sm">
+          {/* <div className="bg-white/70 backdrop-blur-sm rounded-2xl p-6 border border-blue-100 shadow-sm">
             <div className="flex items-start space-x-4">
               <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-indigo-500 rounded-full flex items-center justify-center text-white font-semibold">
                 JW
@@ -74,7 +74,7 @@ export default function BlueSignupForm() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Right side - Form */}

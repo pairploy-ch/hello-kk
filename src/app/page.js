@@ -17,7 +17,7 @@ export default function Home() {
       <Highlight />
 
       <Travel />
-      <Trending />
+      {/* <Trending /> */}
       <Event />
       <Info />
       <Property />
@@ -26,7 +26,7 @@ export default function Home() {
       <Testimonial />
 
       <News />
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }

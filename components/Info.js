@@ -81,51 +81,48 @@ const TravelStatsSection = () => {
 
   const stats = [
     {
-      number: formatNumber(counters.customers),
-      label: "Happy customers",
+      number: '1.8M+',
+      label: "จำนวนประชากร",
       delay: "delay-100"
     },
     {
-      number: formatNumber(counters.tours),
-      label: "Tours and activities",
+      number: '204,000M+',
+      label: "GDP จังหวัด",
       delay: "delay-200"
     },
     {
-      number: formatNumber(counters.countries),
-      label: "Countries around the globe",
+      number: '136',
+      label: "โครงการ Smart City",
       delay: "delay-300"
     },
     {
-      number: formatNumber(counters.partners),
-      label: "Local Partners",
+      number: '16',
+      label: "สถานีรถไฟฟ้ารางเบา (LRT)",
       delay: "delay-400"
     }
   ];
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-cyan-50 relative overflow-hidden">
-      {/* Background decorative elements */}
-      <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-80 h-80 bg-blue-100 rounded-full opacity-30 blur-3xl"></div>
-        <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-cyan-100 rounded-full opacity-30 blur-3xl"></div>
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-60 h-60 bg-blue-50 rounded-full opacity-40 blur-2xl"></div>
-      </div>
-
+ 
     
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-16">
-        {/* Main heading */}
-        <div className={`text-center mb-16 transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-          <h1 className="text-4xl md:text-6xl font-bold text-gray-800 mb-6 leading-tight">
-            We're here to introduce you to all
-            <br />
-            <span className="bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent">
-              the places out there
-            </span>
-          </h1>
-          <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
-            There are many variations of passages of Lorem Ipsum
-            <br />
-            available, but the majority have suffered
+            {/* Header */}
+        <div className="text-center mb-16 space-y-6">
+       
+           <h1 className="text-5xl lg:text-6xl font-light leading-tight mb-6">
+                    The Rising Smart City of Isan<br />
+                    <span className="font-medium">Khon Kaen</span>
+                  </h1>
+          {/* <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-slate-800 via-slate-700 to-slate-600 bg-clip-text text-transparent leading-tight">
+            Khon Kaen
+            <br /> */}
+            {/* <span style={{background: 'linear-gradient(to right, #22E9A2, #07A1EA)', WebkitBackgroundClip: 'text', backgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Highlights</span> */}
+          {/* </h1> */}
+          
+          <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
+           ศูนย์กลางเศรษฐกิจ การศึกษา และการลงทุนแห่งภาคอีสาน
+           
           </p>
         </div>
 
@@ -141,7 +138,7 @@ const TravelStatsSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-cyan-50 opacity-0 group-hover:opacity-50 transition-opacity duration-500 rounded-3xl"></div>
                 
                 <div className="relative z-10">
-                  <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent mb-4 group-hover:scale-110 transition-transform duration-300 font-mono tabular-nums">
+                  <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#07A1EA] to-[#22E9A2] bg-clip-text text-transparent mb-4 group-hover:scale-110 transition-transform duration-300 font-mono tabular-nums">
                     {stat.number}
                   </div>
                   <div className="text-gray-600 text-base md:text-lg font-medium leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
@@ -149,29 +146,14 @@ const TravelStatsSection = () => {
                   </div>
                 </div>
 
-                {/* Decorative corner element */}
-                <div className="absolute top-4 right-4 w-8 h-8 bg-gradient-to-br from-blue-400 to-cyan-400 rounded-full opacity-20 group-hover:scale-150 group-hover:opacity-30 transition-all duration-500"></div>
               </div>
             </div>
           ))}
         </div>
 
-        {/* Bottom CTA section */}
-        <div className={`mt-16 text-center transform transition-all duration-1000 delay-500 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-          <button className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg hover:shadow-2xl hover:scale-105 transition-all duration-300 hover:from-blue-600 hover:to-cyan-600">
-            Explore Our Tours
-          </button>
-          <p className="mt-4 text-gray-500 text-sm">
-            Join thousands of satisfied travelers worldwide
-          </p>
-        </div>
+ 
       </div>
 
-      {/* Floating elements */}
-      <div className="absolute top-20 left-10 w-4 h-4 bg-blue-400 rounded-full animate-pulse opacity-60"></div>
-      <div className="absolute top-40 right-20 w-3 h-3 bg-cyan-400 rounded-full animate-bounce opacity-60" style={{animationDelay: '1s'}}></div>
-      <div className="absolute bottom-20 left-20 w-5 h-5 bg-blue-600 rounded-full animate-pulse opacity-60" style={{animationDelay: '2s'}}></div>
-      <div className="absolute bottom-40 right-10 w-2 h-2 bg-blue-500 rounded-full animate-bounce opacity-60" style={{animationDelay: '0.5s'}}></div>
     </div>
   );
 };

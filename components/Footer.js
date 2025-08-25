@@ -10,17 +10,17 @@ const Footer = () => {
           {/* Logo and Description */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
-              <div className="w-8 h-8 bg-orange-500 rounded-full flex items-center justify-center">
+              <div className="w-8 h-8 bg-teal-500 rounded-full flex items-center justify-center">
                 <div className="w-4 h-4 bg-white rounded-full"></div>
               </div>
-              <span className="text-2xl font-bold text-gray-900">togo</span>
+              <span className="text-2xl font-bold text-gray-900">hellokk</span>
             </div>
             <p className="text-gray-600 text-sm leading-relaxed mb-6 max-w-sm">
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.
+              Discover the best highlights, lifestyle tips, and property insights. Your gateway to exceptional living experiences.
             </p>
             <div className="space-y-2">
               <p className="text-gray-700 text-sm">
-                <span className="font-medium">E.</span> hello@yoursite.com
+                <span className="font-medium">E.</span> hello@hellokk.com
               </p>
               <p className="text-gray-700 text-sm">
                 <span className="font-medium">P.</span> (00) 238 9836
@@ -28,39 +28,39 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Company Column */}
+          {/* Highlight Column */}
           <div>
-            <h3 className="font-semibold text-gray-900 mb-6">Company</h3>
+            <h3 className="font-semibold text-gray-900 mb-6">Highlight</h3>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">About us</a></li>
-              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Career</a></li>
-              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Blog</a></li>
-              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Partner</a></li>
-              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Contact</a></li>
+              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Featured Stories</a></li>
+              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Top Destinations</a></li>
+              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Trending Now</a></li>
+              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Editor's Pick</a></li>
+              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Special Features</a></li>
             </ul>
           </div>
 
-          {/* Services Column */}
+          {/* Lifestyle Column */}
           <div>
-            <h3 className="font-semibold text-gray-900 mb-6">Services</h3>
+            <h3 className="font-semibold text-gray-900 mb-6">Lifestyle</h3>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Tour booking</a></li>
-              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Visa online</a></li>
-              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Travel guide</a></li>
-              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Car service</a></li>
-              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Sim and card</a></li>
+              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Food & Dining</a></li>
+              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Travel</a></li>
+              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Wellness</a></li>
+              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Culture</a></li>
+              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Entertainment</a></li>
             </ul>
           </div>
 
-          {/* Need Help Column */}
+          {/* Property Column */}
           <div>
-            <h3 className="font-semibold text-gray-900 mb-6">Need help?</h3>
+            <h3 className="font-semibold text-gray-900 mb-6">Property</h3>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">FAQs</a></li>
-              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Customer care</a></li>
-              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Safety trip</a></li>
-              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Privacy policy</a></li>
-              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Terms of use</a></li>
+              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Buy</a></li>
+              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Rent</a></li>
+              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Investment</a></li>
+              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Market Trends</a></li>
+              <li><a href="#" className="text-gray-600 text-sm hover:text-gray-900 transition-colors">Property Guide</a></li>
             </ul>
           </div>
         </div>
@@ -116,9 +116,20 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Copyright */}
-        <div className="mt-8 pt-8 border-t border-gray-200 text-center">
-          <p className="text-gray-500 text-sm">© 2025 Uxper. All right reserved.</p>
+        {/* Contact and Copyright */}
+        <div className="mt-8 pt-8 border-t border-gray-200">
+          <div className="flex flex-col md:flex-row justify-between items-center mb-4">
+            <div className="mb-4 md:mb-0">
+              <h3 className="font-semibold text-gray-900 mb-2">Contact</h3>
+              <p className="text-gray-600 text-sm">Get in touch with us for any inquiries or support.</p>
+            </div>
+            <a href="#contact" className="px-6 py-2 bg-teal-500 text-white text-sm rounded hover:bg-teal-600 transition-colors">
+              Contact Us
+            </a>
+          </div>
+          <div className="text-center pt-4 border-t border-gray-100">
+            <p className="text-gray-500 text-sm">© 2025 HelloKK. All rights reserved.</p>
+          </div>
         </div>
       </div>
     </footer>

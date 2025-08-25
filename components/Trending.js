@@ -113,7 +113,7 @@ const PopularToursSection = () => {
   ];
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-12 bg-gray-50 min-h-screen">
+    <div className="max-w-7xl mx-auto px-4 py-12 min-h-screen">
       {/* Header */}
       <div className="flex items-center justify-between mb-8">
         <div>
@@ -126,9 +126,7 @@ const PopularToursSection = () => {
         </div>
         
         <div className="flex items-center space-x-4">
-          <button className="text-orange-500 font-medium hover:text-orange-600 transition-colors">
-            View All Tours
-          </button>
+        
           <div className="flex space-x-2">
             <button className="p-2 rounded-full border border-gray-300 hover:bg-gray-50 transition-colors">
               <ChevronLeft className="w-5 h-5 text-gray-600" />

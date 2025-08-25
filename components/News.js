@@ -10,49 +10,65 @@ const TravelBlogSection = () => {
       title: "Exploring Italy in 10 Days: A Complete Travel Itinerary",
       excerpt: "Italy is a country known for its rich history, incredible art, and cultural heritage. Discover the perfect 10-day journey through Rome, Florence, and Venice.",
       image: "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      readTime: "8 min read",
-      location: "Italy",
+      readTime: "28 ส.ค. 2568",
+
       featured: true
     },
-    {
-      id: 2,
-      category: "FOR COUPLES",
-      title: "3 Days in Paris: A Short Escape to the City of Lights",
-      excerpt: "Paris is a city of romance, history, and culture. In just three days, experience the magic of the Eiffel Tower, Louvre, and charming cafés.",
-      image: "https://images.unsplash.com/photo-1502602898536-47ad22581b52?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      readTime: "5 min read",
-      location: "France"
-    },
-    {
-      id: 3,
+       {
+      id: 1,
       category: "FEATURED",
-      title: "One Week in Japan: Tokyo, Kyoto & Osaka Adventure",
-      excerpt: "Japan is a country that blends cutting-edge technology with ancient traditions. Experience the perfect balance of modern city life and cultural heritage.",
-      image: "https://images.unsplash.com/photo-1528164344705-47542687000d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      readTime: "10 min read",
-      location: "Japan"
+      title: "Exploring Italy in 10 Days: A Complete Travel Itinerary",
+      excerpt: "Italy is a country known for its rich history, incredible art, and cultural heritage. Discover the perfect 10-day journey through Rome, Florence, and Venice.",
+      image: "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      readTime: "28 ส.ค. 2568",
+
+      featured: true
     },
-    {
-      id: 4,
-      category: "FOR FAMILY",
-      title: "5 Days in New York City: Landmarks, Culture & Neighborhoods",
-      excerpt: "The Big Apple never sleeps—and with just five days, you can experience the iconic landmarks, world-class museums, and diverse neighborhoods.",
-      image: "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-      readTime: "7 min read",
-      location: "USA"
-    }
+
+       {
+      id: 1,
+      category: "FEATURED",
+      title: "Exploring Italy in 10 Days: A Complete Travel Itinerary",
+      excerpt: "Italy is a country known for its rich history, incredible art, and cultural heritage. Discover the perfect 10-day journey through Rome, Florence, and Venice.",
+      image: "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      readTime: "28 ส.ค. 2568",
+
+      featured: true
+    },
+
+       {
+      id: 1,
+      category: "FEATURED",
+      title: "Exploring Italy in 10 Days: A Complete Travel Itinerary",
+      excerpt: "Italy is a country known for its rich history, incredible art, and cultural heritage. Discover the perfect 10-day journey through Rome, Florence, and Venice.",
+      image: "https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+      readTime: "28 ส.ค. 2568",
+
+      featured: true
+    },
+
+
   ];
 
   return (
     <section className="bg-gray-50 py-16 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        {/* Header */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 mb-4">
-            News
+            {/* Header */}
+        <div className="text-center mb-16 space-y-6">
+       
+          <h1 className=" text-5xl lg:text-6xl font-light leading-tight mb-6">
+            Latest News
+            <br />
+            <span className="font-medium ">from Khon Kaen</span>
           </h1>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Explore handpicked travel experiences and destination guides that inspire your next adventure
+          {/* <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-slate-800 via-slate-700 to-slate-600 bg-clip-text text-transparent leading-tight">
+            Khon Kaen
+            <br /> */}
+          {/* <span style={{background: 'linear-gradient(to right, #22E9A2, #07A1EA)', WebkitBackgroundClip: 'text', backgroundClip: 'text', WebkitTextFillColor: 'transparent'}}>Highlights</span> */}
+          {/* </h1> */}
+
+          <p className=" text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed">
+          อัปเดตข่าวเด่นและกิจกรรมล่าสุดของขอนแก่น
           </p>
         </div>
 
@@ -110,7 +126,7 @@ const TravelBlogSection = () => {
 
               {/* Content */}
               <div className="p-5">
-                <h3 className="font-semibold text-gray-800 mb-2 line-clamp-2 group-hover:text-emerald-600 transition-colors">
+                <h3 className="font-semibold text-gray-800 mb-2 line-clamp-2  transition-colors">
                   {post.title}
                 </h3>
                 
@@ -144,7 +160,7 @@ const TravelBlogSection = () => {
         {/* Bottom CTA */}
         <div className="text-center mt-12">
           <button className="inline-flex items-center gap-2 px-8 py-3 bg-sky-500 text-white font-medium rounded-lg hover:bg-sky-600 transition-colors">
-            <span>View All Journeys</span>
+            <span>View All News</span>
             <ArrowRight className="w-5 h-5" />
           </button>
         </div>

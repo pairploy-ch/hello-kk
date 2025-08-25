@@ -37,15 +37,15 @@ const TestimonialSection = () => {
       avatar: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop&crop=face",
       image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop&crop=center"
     },
-    {
-      id: 2,
-      rating: 5,
-      text: "Amazing experience with this travel company! The service was exceptional and the destinations were breathtaking. I would definitely recommend them to anyone looking for an unforgettable adventure.",
-      author: "Sarah Johnson",
-      position: "Travel Blogger",
-      avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face",
-      image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?w=600&h=400&fit=crop&crop=center"
-    },
+    // {
+    //   id: 2,
+    //   rating: 5,
+    //   text: "Amazing experience with this travel company! The service was exceptional and the destinations were breathtaking. I would definitely recommend them to anyone looking for an unforgettable adventure.",
+    //   author: "Sarah Johnson",
+    //   position: "Travel Blogger",
+    //   avatar: "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=100&h=100&fit=crop&crop=face",
+    //   image: "https://images.unsplash.com/photo-1539650116574-75c0c6d73f6e?w=600&h=400&fit=crop&crop=center"
+    // },
     {
       id: 3,
       rating: 5,
@@ -53,7 +53,7 @@ const TestimonialSection = () => {
       author: "Michael Chen",
       position: "Marketing Director",
       avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&crop=face",
-      image: "https://images.unsplash.com/photo-1502780402662-acc01917949e?w=600&h=400&fit=crop&crop=center"
+      image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&h=400&fit=crop&crop=center"
     }
   ];
 
@@ -81,19 +81,13 @@ const TestimonialSection = () => {
             </span>
           </div>
           
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-800 mb-6">
-            We are trusted by our customer
-          </h2>
+    <h1 className="text-5xl lg:text-6xl font-light leading-tight mb-6">
+            Hear From Those Who Live
+            <br />
+            <span className="font-medium">in Khon Kaen</span>
+          </h1>
           
-          <div className="flex items-center justify-center space-x-2 text-lg">
-            <span className="text-gray-600">Average rating</span>
-            <span className="text-3xl font-bold text-gray-800">
-              {animatingRating.toFixed(1)}
-            </span>
-            <span className="text-gray-600">/5 from</span>
-            <span className="text-3xl font-bold text-gray-800">597</span>
-            <span className="text-gray-600">reviews</span>
-          </div>
+      
         </div>
 
         {/* Main Content */}
@@ -213,25 +207,7 @@ const TestimonialSection = () => {
           </div>
         </div>
 
-        {/* Trust Indicators */}
-        <div className={`mt-20 transform transition-all duration-1000 delay-500 ${
-          isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'
-        }`}>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 mb-2">1000+</div>
-              <div className="text-gray-600">Happy Customers</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 mb-2">4.9/5</div>
-              <div className="text-gray-600">Average Rating</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-blue-600 mb-2">597</div>
-              <div className="text-gray-600">Total Reviews</div>
-            </div>
-          </div>
-        </div>
+     
       </div>
     </div>
   );
