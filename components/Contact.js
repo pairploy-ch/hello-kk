@@ -12,7 +12,7 @@ const DarwinProfile = () => {
           <h1 className=" text-5xl lg:text-6xl font-light leading-tight mb-6">
             About Us
             <br />
-            <span className="font-medium ">Talk to Sipim</span>
+            <span className="font-medium text-blue-500">Talk to Sipim</span>
           </h1>
           {/* <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-slate-800 via-slate-700 to-slate-600 bg-clip-text text-transparent leading-tight">
             Khon Kaen
@@ -102,7 +102,7 @@ const DarwinProfile = () => {
 
                 {/* Contact Button */}
                 <div className="pt-4">
-                  <button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-md">
+                  <button className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-8 py-3 rounded-lg font-semibold transition-colors shadow-md">
                     Contact
                   </button>
                 </div>

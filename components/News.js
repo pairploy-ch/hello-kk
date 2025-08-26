@@ -15,7 +15,7 @@ const TravelBlogSection = () => {
       featured: true
     },
        {
-      id: 1,
+      id: 2,
       category: "FEATURED",
       title: "Exploring Italy in 10 Days: A Complete Travel Itinerary",
       excerpt: "Italy is a country known for its rich history, incredible art, and cultural heritage. Discover the perfect 10-day journey through Rome, Florence, and Venice.",
@@ -26,7 +26,7 @@ const TravelBlogSection = () => {
     },
 
        {
-      id: 1,
+      id: 3,
       category: "FEATURED",
       title: "Exploring Italy in 10 Days: A Complete Travel Itinerary",
       excerpt: "Italy is a country known for its rich history, incredible art, and cultural heritage. Discover the perfect 10-day journey through Rome, Florence, and Venice.",
@@ -37,7 +37,7 @@ const TravelBlogSection = () => {
     },
 
        {
-      id: 1,
+      id: 4,
       category: "FEATURED",
       title: "Exploring Italy in 10 Days: A Complete Travel Itinerary",
       excerpt: "Italy is a country known for its rich history, incredible art, and cultural heritage. Discover the perfect 10-day journey through Rome, Florence, and Venice.",
@@ -55,7 +55,11 @@ const TravelBlogSection = () => {
       <div className="max-w-7xl mx-auto">
             {/* Header */}
         <div className="text-center mb-16 space-y-6">
-       
+           <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full border border-blue-200">
+            <span className="text-sm font-semibold text-blue-600 tracking-wider uppercase">News</span>
+            <div className="w-2 h-2 bg-gradient-to-r from-blue-400 to-blue-400 rounded-full animate-pulse"></div>
+          </div>
+          
           <h1 className=" text-5xl lg:text-6xl font-light leading-tight mb-6">
             Latest News
             <br />
@@ -74,11 +78,11 @@ const TravelBlogSection = () => {
 
         {/* Navigation Buttons */}
         <div className="flex justify-end mb-6 gap-2">
-          <button className="p-2 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
+          <button           className="group p-3 bg-white rounded-md shadow-lg hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-blue-200 disabled:opacity-50 disabled:cursor-not-allowed">
             <ChevronLeft className="w-5 h-5 text-gray-600" />
           </button>
-          <button className="p-2 bg-white border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors">
-            <ChevronRight className="w-5 h-5 text-gray-600" />
+          <button               className="group p-3 bg-gradient-to-r from-blue-500 to-blue-600 rounded-md shadow-lg hover:shadow-xl transition-all duration-300 hover:from-blue-600 hover:to-blue-700 disabled:opacity-50 disabled:cursor-not-allowed">
+            <ChevronRight className="w-5 h-5 text-white" />
           </button>
         </div>
 
@@ -159,7 +163,7 @@ const TravelBlogSection = () => {
 
         {/* Bottom CTA */}
         <div className="text-center mt-12">
-          <button className="inline-flex items-center gap-2 px-8 py-3 bg-sky-500 text-white font-medium rounded-lg hover:bg-sky-600 transition-colors">
+          <button className="bg-gradient-to-r from-blue-500 to-cyan-500 inline-flex items-center gap-2 px-8 py-3  text-white font-medium rounded-lg hover:bg-sky-600 transition-colors">
             <span>View All News</span>
             <ArrowRight className="w-5 h-5" />
           </button>

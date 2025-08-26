@@ -16,7 +16,7 @@ const TravelBlogSection = () => {
       {
       id: 1,
       category: "NEWS",
-      title: "เจริญก่อนไม่รอแล้วนะ! “ขอนแก่นโมเดล” ไม่รองบรัฐเตรียมสร้างรถไฟฟ้ารางเบา",
+      title: "ทำไมขอนแก่นได้ชื่อว่าเป็นเมืองเศรษฐกิจ แล้วคนรุ่นใหม่มีโอกาสทางธุรกิจมากแค่ไหน?",
       excerpt: "ปัญหาคลาสสิคของไทย หนีไม่พ้นภาครัฐที่ทำนโยบายลงไปไม่ถึงประชาชน ทั้งคนที่อยู่ใกล้หรือคนที่อยู่ไกล",
       image: "/hl-1.jpg",
       readTime: "25 ส.ค. 2568",
@@ -48,9 +48,9 @@ const TravelBlogSection = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-16 space-y-6">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-green-100 to-blue-100 rounded-full border border-green-200">
-            <span className="text-sm font-semibold text-green-600 tracking-wider uppercase">Highlight</span>
-            <div className="w-2 h-2 bg-gradient-to-r from-green-400 to-blue-400 rounded-full animate-pulse"></div>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full border border-blue-200">
+            <span className="text-sm font-semibold text-blue-600 tracking-wider uppercase">Highlight</span>
+            <div className="w-2 h-2 bg-gradient-to-r from-blue-400 to-blue-400 rounded-full animate-pulse"></div>
           </div>
           
            <h1 className="text-5xl lg:text-6xl font-light leading-tight mb-6">
@@ -106,7 +106,7 @@ const TravelBlogSection = () => {
                
                 </div>
                 
-                <h3 className="text-2xl font-bold text-slate-800 mb-3  transition-colors">
+                <h3 className="line-clamp-2 text-2xl font-bold text-slate-800 mb-3  transition-colors">
                   {blogPosts[0].title}
                 </h3>
                 
@@ -115,8 +115,8 @@ const TravelBlogSection = () => {
                 </p>
                 
                 <button className="inline-flex items-center gap-2 font-semibold hover:opacity-80 transition-all group" style={{color: '#07A1EA'}}>
-                  <span>Read More</span>
-                  <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                  <span className='text-blue-500'>Read More</span>
+                  <ArrowRight className="text-blue-500 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                 </button>
               </div>
             </div>
@@ -138,7 +138,7 @@ const TravelBlogSection = () => {
                   
                   <div className="flex-1 p-6">
                     <div className="mb-2">
-                      <span className="inline-block px-2 py-1 text-xs font-medium text-green-600 bg-green-50 rounded">
+                      <span className="inline-block px-2 py-1 text-xs font-medium text-blue-600 bg-blue-50 rounded">
                         {post.category}
                       </span>
                     </div>
@@ -158,7 +158,7 @@ const TravelBlogSection = () => {
                       </div>
                       
                       <button className="hover:opacity-80 transition-all" style={{color: '#07A1EA'}}>
-                        <ArrowRight className="w-4 h-4" />
+                        <ArrowRight className="text-blue-500 w-4 h-4" />
                       </button>
                     </div>
                   </div>

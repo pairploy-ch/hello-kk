@@ -199,7 +199,7 @@ const TestimonialSection = () => {
                 onClick={() => setCurrentIndex(index)}
                 className={`w-3 h-3 rounded-full transition-all duration-300 ${
                   index === currentIndex
-                    ? 'bg-blue-500 w-8'
+                    ? 'bg-gradient-to-r from-blue-500 to-cyan-500 w-8'
                     : 'bg-gray-300 hover:bg-gray-400'
                 }`}
               />

@@ -87,9 +87,9 @@ const CalendarEventSection = () => {
       <div className="max-w-7xl mx-auto">
            {/* Header */}
         <div className="text-center mb-16 space-y-6">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-green-100 to-blue-100 rounded-full border border-green-200">
-            <span className="text-sm font-semibold text-green-600 tracking-wider uppercase">Events</span>
-            <div className="w-2 h-2 bg-gradient-to-r from-green-400 to-blue-400 rounded-full animate-pulse"></div>
+          <div className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-blue-100 to-cyan-100 rounded-full border border-blue-200">
+            <span className="text-sm font-semibold text-blue-600 tracking-wider uppercase">Events</span>
+            <div className="w-2 h-2 bg-gradient-to-r from-blue-400 to-blue-400 rounded-full animate-pulse"></div>
           </div>
           
            <h1 className="text-5xl lg:text-6xl font-light leading-tight mb-6">

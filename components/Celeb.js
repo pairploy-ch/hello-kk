@@ -58,7 +58,7 @@ const ExperienceTeam = () => {
           <h1 className="text-5xl lg:text-6xl font-light leading-tight mb-6">
             Inspiring People
             <br />
-            <span className="font-medium">of Khon Kaen</span>
+            <span className="font-medium text-blue-500">of Khon Kaen</span>
           </h1>
           {/* <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-slate-800 via-slate-700 to-slate-600 bg-clip-text text-transparent leading-tight">
             Khon Kaen

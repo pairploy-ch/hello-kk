@@ -26,6 +26,36 @@ const Footer = () => {
                 <span className="font-medium">P.</span> (00) 238 9836
               </p>
             </div>
+              {/* Connect Section */}
+        <div className="mt-4">
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
+            <div className="mb-8 md:mb-0">
+              <h3 className="font-semibold text-gray-900 mb-4">Connect</h3>
+              <div className="flex space-x-4">
+                <a href="#" className="flex items-center space-x-2 text-gray-600 hover:text-gray-900 transition-colors">
+                  <Facebook className="w-4 h-4" />
+                  <span className="text-sm">Facebook</span>
+                </a>
+                <a href="#" className="flex items-center space-x-2 text-gray-600 hover:text-gray-900 transition-colors">
+                  <Instagram className="w-4 h-4" />
+                  <span className="text-sm">Instagram</span>
+                </a>
+                <a href="#" className="flex items-center space-x-2 text-gray-600 hover:text-gray-900 transition-colors">
+                  <Twitter className="w-4 h-4" />
+                  <span className="text-sm">Twitter</span>
+                </a>
+                <a href="#" className="flex items-center space-x-2 text-gray-600 hover:text-gray-900 transition-colors">
+                  <Youtube className="w-4 h-4" />
+                  <span className="text-sm">Youtube</span>
+                </a>
+              </div>
+       
+            </div>
+
+        
+          </div>
+        </div>
+
           </div>
 
           {/* Highlight Column */}
@@ -65,57 +95,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Connect Section */}
-        <div className="mt-12 pt-8 border-t border-gray-200">
-          <div className="flex flex-col md:flex-row justify-between items-start md:items-center">
-            <div className="mb-8 md:mb-0">
-              <h3 className="font-semibold text-gray-900 mb-4">Connect</h3>
-              <div className="flex space-x-4">
-                <a href="#" className="flex items-center space-x-2 text-gray-600 hover:text-gray-900 transition-colors">
-                  <Facebook className="w-4 h-4" />
-                  <span className="text-sm">Facebook</span>
-                </a>
-                <a href="#" className="flex items-center space-x-2 text-gray-600 hover:text-gray-900 transition-colors">
-                  <Instagram className="w-4 h-4" />
-                  <span className="text-sm">Instagram</span>
-                </a>
-                <a href="#" className="flex items-center space-x-2 text-gray-600 hover:text-gray-900 transition-colors">
-                  <Twitter className="w-4 h-4" />
-                  <span className="text-sm">Twitter</span>
-                </a>
-                <a href="#" className="flex items-center space-x-2 text-gray-600 hover:text-gray-900 transition-colors">
-                  <Youtube className="w-4 h-4" />
-                  <span className="text-sm">Youtube</span>
-                </a>
-              </div>
-              <div className="mt-4">
-                <a href="#" className="flex items-center space-x-2 text-gray-600 hover:text-gray-900 transition-colors">
-                  <div className="w-4 h-4 rounded-full bg-red-500 flex items-center justify-center">
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                  </div>
-                  <span className="text-sm">Pinterest</span>
-                </a>
-              </div>
-            </div>
-
-            {/* Language/Currency Selector */}
-            <div className="flex items-center space-x-4">
-              <div className="relative">
-                <select className="appearance-none bg-white border border-gray-300 rounded px-4 py-2 pr-8 text-sm text-gray-700 focus:outline-none focus:border-gray-400">
-                  <option>EN / USD</option>
-                  <option>TH / THB</option>
-                  <option>JP / JPY</option>
-                </select>
-                <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center px-2 text-gray-700">
-                  <svg className="fill-current h-4 w-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                    <path d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z"/>
-                  </svg>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+      
         {/* Contact and Copyright */}
         <div className="mt-8 pt-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center mb-4">

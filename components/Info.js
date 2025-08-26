@@ -112,7 +112,7 @@ const TravelStatsSection = () => {
        
            <h1 className="text-5xl lg:text-6xl font-light leading-tight mb-6">
                     The Rising Smart City of Isan<br />
-                    <span className="font-medium">Khon Kaen</span>
+                    <span className="font-medium text-blue-500">Khon Kaen</span>
                   </h1>
           {/* <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-slate-800 via-slate-700 to-slate-600 bg-clip-text text-transparent leading-tight">
             Khon Kaen
@@ -138,7 +138,7 @@ const TravelStatsSection = () => {
                 <div className="absolute inset-0 bg-gradient-to-br from-blue-50 to-cyan-50 opacity-0 group-hover:opacity-50 transition-opacity duration-500 rounded-3xl"></div>
                 
                 <div className="relative z-10">
-                  <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-[#07A1EA] to-[#22E9A2] bg-clip-text text-transparent mb-4 group-hover:scale-110 transition-transform duration-300 font-mono tabular-nums">
+                  <div className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-blue-500 to-cyan-500 bg-clip-text text-transparent mb-4 group-hover:scale-110 transition-transform duration-300 font-mono tabular-nums">
                     {stat.number}
                   </div>
                   <div className="text-gray-600 text-base md:text-lg font-medium leading-relaxed group-hover:text-gray-700 transition-colors duration-300">
