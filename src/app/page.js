@@ -8,7 +8,7 @@ import Info from "../../components/Info";
 import Property from "../../components/Property";
 import Testimonial from "../../components/Testimonial";
 import Investment from "../../components/Investment";
-import Contact from "../../components/Contact";
+import Celeb from "../../components/Celeb";
 
 export default function Home() {
   return (
@@ -19,6 +19,7 @@ export default function Home() {
       <Travel />
       {/* <Trending /> */}
       <Event />
+      <Celeb />
       <Info />
       <Property />
 
