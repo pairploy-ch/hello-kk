@@ -9,6 +9,7 @@ import Property from "../../components/Property";
 import Testimonial from "../../components/Testimonial";
 import Investment from "../../components/Investment";
 import Celeb from "../../components/Celeb";
+import Contact from "../../components/Contact";
 
 export default function Home() {
   return (
@@ -27,7 +28,7 @@ export default function Home() {
       <Testimonial />
 
       <News />
-      {/* <Contact /> */}
+      <Contact />
     </div>
   );
 }

@@ -96,17 +96,17 @@ const TravelStatsSection = () => {
       delay: "delay-300"
     },
     {
-      number: '16',
-      label: "สถานีรถไฟฟ้ารางเบา (LRT)",
+      number: '135',
+      label: "มหาวิทยาลัย",
       delay: "delay-400"
     }
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-white to-cyan-50 relative overflow-hidden">
+    <div className=" bg-gradient-to-br from-blue-50 via-white to-cyan-50 relative overflow-hidden">
  
     
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 py-16">
+      <div className="relative z-10 flex flex-col items-center justify-center px-4 py-16">
             {/* Header */}
         <div className="text-center mb-16 space-y-6">
        

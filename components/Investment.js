@@ -24,7 +24,7 @@ const TravelNewsletterSection = () => {
 
 
   return (
-    <div className="relative min-h-screen w-full overflow-hidden">
+    <div className="relative w-full overflow-hidden">
       {/* Single Background Image */}
       <div className="absolute inset-0">
         <img
