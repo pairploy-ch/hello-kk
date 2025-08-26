@@ -103,7 +103,7 @@ const Footer = () => {
               <h3 className="font-semibold text-gray-900 mb-2">Contact</h3>
               <p className="text-gray-600 text-sm">Get in touch with us for any inquiries or support.</p>
             </div>
-            <a href="#contact" className="px-6 py-2 bg-teal-500 text-white text-sm rounded hover:bg-teal-600 transition-colors">
+            <a href="#contact" className="px-6 py-2 bg-blue-500 text-white text-sm rounded hover:bg-teal-600 transition-colors">
               Contact Us
             </a>
           </div>
